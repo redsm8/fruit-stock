@@ -1,0 +1,67 @@
+/* Layout */
+.app-container {
+  background-color: #1e1e1e;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+/* Fruit counter box */
+.fruit-container {
+  text-align: center;
+  margin: 0 20px;
+}
+
+/* button styles */
+.fruit-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+  min-width: 160px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Color variations */
+.purchase {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.eat {
+  background-color: #D32F2F;
+  color: white;
+}
+
+/* style for "Eat All" */
+.bold {
+  font-weight: bold;
+}
+
+/* Disabled state */
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
