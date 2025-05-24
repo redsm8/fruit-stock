@@ -1,6 +1,8 @@
 // Redon Malo
 // May 24, 2025
-// CSCI 
+// CSCI 39548
+// Final Project
+// App.jsx
 
 import { useEffect, useState } from 'react';
 import { db, auth, google } from './firebaseConfig';
